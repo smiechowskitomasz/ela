@@ -955,7 +955,7 @@
   width: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 0 20px;
+  padding: 80px 120px 300px 120px;
 }
 
 @media (max-width: 1023px) {
@@ -982,9 +982,11 @@
   font-family: Muli;
   font-style: normal;
   font-weight: normal;
+  display: block;
   font-size: 14px;
   line-height: 18px;
   color: #9F9F9F;
+  margin-top: 55px;
 }
 
 .footer__header {
