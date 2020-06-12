@@ -364,7 +364,7 @@
   }
 }
 
-.whyUs {
+.offer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,7 +378,7 @@
 }
 
 @media (max-width: 1023px) {
-  .whyUs {
+  .offer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -387,7 +387,7 @@
   }
 }
 
-.whyUs__head {
+.offer__head {
   margin: 160px 0 40px 80px;
   font-family: Muli;
   font-style: normal;
@@ -400,14 +400,14 @@
 }
 
 @media (max-width: 1023px) {
-  .whyUs__head {
+  .offer__head {
     margin: 120px auto 40px auto;
     font-size: 52px;
     line-height: 54px;
   }
 }
 
-.whyUs__paragraph {
+.offer__paragraph {
   font-family: Muli;
   font-style: normal;
   font-weight: normal;
@@ -420,14 +420,14 @@
 }
 
 @media (max-width: 1023px) {
-  .whyUs__paragraph {
+  .offer__paragraph {
     padding: 0 40px;
     font-size: 20px;
     line-height: 28px;
   }
 }
 
-.whyUs__container {
+.offer__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -442,30 +442,30 @@
 }
 
 @media (max-width: 1023px) {
-  .whyUs__container {
+  .offer__container {
     margin-top: 80px;
     padding: 0 40px;
   }
 }
 
-.whyUs__icon {
+.offer__icon {
   margin: 0 auto;
 }
 
 @media (max-width: 1023px) {
-  .whyUs__icon {
+  .offer__icon {
     padding: 0;
   }
 }
 
-.whyUs__icon:hover {
+.offer__icon:hover {
   -webkit-transform: scale(1.4);
           transform: scale(1.4);
   -webkit-transition: 0.8s;
   transition: 0.8s;
 }
 
-.whyUs__header {
+.offer__header {
   font-family: Muli;
   font-style: normal;
   font-weight: 600;
@@ -477,7 +477,7 @@
   margin: 40px 0 16px 0;
 }
 
-.whyUs__introduction {
+.offer__introduction {
   font-family: Muli;
   font-style: normal;
   font-weight: normal;
@@ -489,19 +489,19 @@
 }
 
 @media (max-width: 1023px) {
-  .whyUs__introduction {
+  .offer__introduction {
     font-size: 16px;
     line-height: 24px;
   }
 }
 
-.whyUs--addBorder {
+.offer--addBorder {
   border-left: 1px solid rgba(5, 5, 5, 0.2);
   border-right: 1px solid rgba(5, 5, 5, 0.2);
 }
 
 @media (max-width: 1023px) {
-  .whyUs--addBorder {
+  .offer--addBorder {
     border: 0;
   }
 }
@@ -608,8 +608,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-preferred-size: 28.5%;
-      flex-basis: 28.5%;
+  -ms-flex-preferred-size: calc( 32% - 30px);
+      flex-basis: calc( 32% - 30px);
   margin: 20px;
   padding: 0 49px 80px 49px;
   background-color: #fff;

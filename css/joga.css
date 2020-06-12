@@ -100,8 +100,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-preferred-size: 28.5%;
-      flex-basis: 28.5%;
+  -ms-flex-preferred-size: calc( 32% - 30px);
+      flex-basis: calc( 32% - 30px);
   margin: 20px;
   padding: 0 49px 80px 49px;
   background-color: #fff;
