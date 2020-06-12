@@ -1,0 +1,108 @@
+.creativeWorkshops {
+  background-color: #F5AFBD;
+  padding: 160px 125px;
+}
+
+@media (max-width: 1023px) {
+  .creativeWorkshops {
+    padding: 160px 40px;
+  }
+}
+
+.creativeWorkshops__header {
+  font-weight: bold;
+  font-size: 88px;
+  line-height: 90px;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+  max-width: 658px;
+}
+
+@media (max-width: 1023px) {
+  .creativeWorkshops__header {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .creativeWorkshops__header {
+    max-width: none;
+    text-align: center;
+    font-size: 78px;
+    line-height: 80px;
+  }
+}
+
+@media (max-width: 700px) {
+  .creativeWorkshops__header {
+    font-size: 42px;
+    line-height: 44px;
+  }
+}
+
+.creativeWorkshops__paragraph {
+  font-size: 24px;
+  line-height: 34px;
+  color: #FFFFFF;
+  max-width: 658px;
+  margin: 40px 0 80px 0;
+}
+
+@media (max-width: 1023px) {
+  .creativeWorkshops__paragraph {
+    max-width: none;
+    text-align: center;
+  }
+}
+
+.creativeWorkshops__flexboxContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 1023px) {
+  .creativeWorkshops__flexboxContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.creativeWorkshops__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 16px;
+}
+
+.creativeWorkshops__box-paragraph {
+  margin: 16px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-align: center;
+}
+/*# sourceMappingURL=creativeWorkshops.css.map */
